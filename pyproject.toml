@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "renovate-repro"
+version = "0.1.0"
+description = "Minimal reproduction for Renovate lower bound issue"
+authors = ["Denislav <denislav.e.zarev@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = { version = "^2.3.0,<2.6.0" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

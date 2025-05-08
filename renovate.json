@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:recommended",
+      ":enableVulnerabilityAlerts",
+      "security:only-security-updates"
+    ],
+    "rangeStrategy": "widen",
+    "osvVulnerabilityAlerts": true 
+  }
+  
